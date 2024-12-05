@@ -1,0 +1,128 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, #f9f9f9, #e8f1ff);
+}
+
+/* Header Section */
+.header-section {
+    height: 60vh;
+    background-image: url(cont.jpg);
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header-section .overlay h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header-section .overlay p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Logo Section */
+.logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.logo-container img {
+    max-width: 80px;
+    height: auto;
+}
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contact-info, .contact-form {
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    flex: 1 1 45%;
+    margin: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-info:hover, .contact-form:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info h2, .contact-form h2 {
+    color: #004080;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.contact-info p, .contact-form p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background: #004080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #0066cc;
+}
+
+/* Footer Section */
+footer {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
