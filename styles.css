@@ -49,8 +49,9 @@ video {
 
 .headline {
     font-size: 100px;
+    font-weight: bold;
     text-align: center;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
    
 
 }
@@ -82,7 +83,7 @@ body {
 .logo-background {
     width: 350px;
     height: 350px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(31, 30, 30, 0.1);
     border-radius: 65%;
     display: flex;
     align-items: center;
@@ -114,6 +115,8 @@ body {
 .about-description {
     font-size: 1.2em;
     line-height: 1.8;
+    color: #000;
+    font-weight: bold;
 }
 
 .highlight {
@@ -156,9 +159,9 @@ body {
 .container {
     width: 30%;
     padding: 20px;
-    background: #f4f4f4;
+    background: #4d4c4c;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid #78bce9;
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
@@ -212,7 +215,7 @@ body {
     gap: 20px;
 }
 
-.container {
+.container1 {
     width: 30%;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -263,7 +266,7 @@ body {
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #121212;
+    background-color: #ffffff;
     color: #f4f4f4;
 }
 
@@ -275,7 +278,7 @@ body {
     justify-content: space-around;
     padding: 80px 20px;
     min-height: 100vh;
-    background: radial-gradient(circle, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1));
+    background: radial-gradient(circle, rgba(241, 238, 238, 0.8), rgb(92, 167, 228));
     color: #fff;
     position: relative;
     overflow: hidden;
@@ -336,29 +339,4 @@ body {
     }
 }
 
-/* Responsive Design for Mobile */
-@media (max-width: 768px) {
-    .about-section {
-        flex-direction: column;
-        text-align: center;
-        padding: 40px 20px;
-    }
 
-    .logo-background {
-        margin-bottom: 20px;
-    }
-
-    .about-text {
-        max-width: 90%;
-        text-align: center;
-    }
-
-    .about-title {
-        font-size: 2.5em;
-    }
-
-    .about-description {
-        font-size: 1em;
-        line-height: 1.5;
-    }
-}
